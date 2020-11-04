@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Esto es un cambio para hacer un nuevo commit!!!
+
         Button bt = findViewById(R.id.button);
         editText = findViewById(R.id.name);
         editText2 = findViewById(R.id.edat);
